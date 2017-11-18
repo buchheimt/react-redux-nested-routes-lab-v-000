@@ -14,7 +14,10 @@ class PetsPage extends Component {
 
   render() {
     return (
-      <div>Pets Page</div>
+      <div>
+        <h3>Pets Page</h3>
+        <PetsList pets={this.props.pets} />
+      </div>
     )
   }
 };
